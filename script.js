@@ -16,7 +16,8 @@ function show1() {
     video2.style.display = "none";
     video3.style.display = "none";
     video4.style.display = "none";
-
+    button1.style.borderTop = "4px solid grey";
+    button1.style.borderRight = "none";
     text.textContent =
         'Досліджуй власні унікальні світи, переживи ніч і створи все, що тільки зможеш уявити!\n Дивись приклад відео з грою Minecraft вище або вибери посилання "Дивитись трейлер", щоб повністю переглянути відео на YouTube.';
     p1.textContent = "КУПИТИ МАЙНКРАФТ";
@@ -33,6 +34,7 @@ function show2() {
     video2.style.display = "block";
     video3.style.display = "none";
     video4.style.display = "none";
+    button2.style.borderRight = "none";
 
     p1.textContent = "ДОКЛАДНІШЕ";
     a1.href = "https://www.minecraft.net/en-us/about-dungeons";
@@ -48,7 +50,7 @@ function show3() {
     video2.style.display = "none";
     video3.style.display = "block";
     video4.style.display = "none";
-
+    button3.style.borderRight = "none";
     p1.textContent = "ДОКЛАДНІШЕ";
     a1.href = "https://www.minecraft.net/en-us/about-legends";
 }
@@ -63,6 +65,7 @@ function show4() {
     video2.style.display = "none";
     video3.style.display = "none";
     video4.style.display = "block";
+    button4.style.borderRight = "none";
     p1.textContent = "ДІЗНАТИСЬ БІЛЬШЕ";
     a1.href = "https://education.minecraft.net/en-us";
 }
