@@ -1,0 +1,142 @@
+.title {
+    color: green;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 29px 10px 51px;
+    background-color: #313131;
+    box-shadow: 0px 0px 10px;
+}
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+}
+
+header nav ul li {
+    color: white;
+    height: 100%;
+    align-content: center;
+}
+
+.buy {
+    border: 2px solid;
+    color: #50b134;
+}
+.ul1 {
+    width: 45%;
+}
+.ul2 {
+    width: 25%;
+}
+
+.img {
+    width: 119%;
+    transform: translate(-172px, -184px);
+}
+.Divbox {
+    width: 30%;
+    transform: translateY(-146px);
+    background-color: #141414;
+    padding: 10px;
+    font-size: larger;
+}
+.Divbox ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.Divimg {
+    width: 40%;
+    padding: 10px;
+}
+.Divimg img:hover {
+    border: 2px solid green;
+}
+.Divimg img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 2px solid #141414;
+}
+.div1 {
+    display: flex;
+    justify-content: center;
+    transform: translateY(-146px);
+}
+.sect2 h1 {
+    text-align: center;
+    font-size: 400%;
+}
+.sect2 div {
+    text-align: center;
+    font-size: 131%;
+}
+.cards {
+    width: 23%;
+    height: 60vh;
+    padding: 1%;
+}
+.cards img {
+    width: 100%;
+}
+.cards p {
+    font-size: medium;
+    text-align: left;
+    height: max-content;
+}
+.cards h5 {
+    text-align: left;
+}
+.card {
+    display: flex;
+    padding: 4%;
+}
+.icon {
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 2px solid #262423;
+    padding: 5px;
+}
+.button {
+    width: 40%;
+    height: 60%;
+    color: white;
+
+}
+.video {
+    width: 60%;
+
+    height: 100%;
+    background-color: #3d3938;
+}
+.video div Video {
+    width: 100%;
+}
+.button button {
+    width: 100%;
+    height: 10vh;
+    background-color: #262423;
+    border-top: 2px solid gray;
+    color: white;
+    display: flex;
+    padding: 18px;align-items: center;font-size: x-large;
+}
+
+.Video {
+    padding: 30px;
+}
+.video a {
+    background-color: #3c8527;
+    padding: 2vh;
+   box-shadow: inset 0 -6px 0 #2a641c, inset 0 6px 0 #52a535;
+    border: 2px solid black;
+    line-height: 0.5rem;
+    font-size: larger
+}
+.button button img {height: 100%;}
