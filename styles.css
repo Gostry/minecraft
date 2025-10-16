@@ -73,10 +73,7 @@ header nav ul li {
     text-align: center;
     font-size: 400%;
 }
-.sect2 div {
-    text-align: center;
-    font-size: 131%;
-}
+
 .cards {
     width: 23%;
     height: 60vh;
@@ -107,12 +104,11 @@ header nav ul li {
     width: 40%;
     height: 60%;
     color: white;
-
 }
 
 .video {
     width: 60%;
-border-top: 4px solid grey;
+    border-top: 4px solid grey;
     border-right: 4px solid grey;
 
     height: 100%;
@@ -125,7 +121,7 @@ border-top: 4px solid grey;
     width: 100%;
     height: 10vh;
     background-color: #262423;
-border-top: 4px solid grey;
+    border-top: 4px solid grey;
     color: white;
     display: flex;
     padding: 18px;
@@ -149,7 +145,22 @@ border-top: 4px solid grey;
 .button button img {
     height: 100%;
 }
-.sect2
-{
+.sect2 {
     text-align: center;
+}
+.ulCard li div {
+    width: 239.75px;
+    transition: 2s;
+    height: 239.75px;
+    background-size: cover;
+}
+.ulCard {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+.ulCard li div:hover {
+    background-size: unset;
 }
