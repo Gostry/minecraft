@@ -7,6 +7,7 @@ let video1 = document.getElementById("video1");
 let video2 = document.getElementById("video2");
 let video3 = document.getElementById("video3");
 let video4 = document.getElementById("video4");
+let table = document.getElementById("table");
 function show1() {
     button1.style.backgroundColor = "#3d3938";
     button2.style.backgroundColor = "#262423";
@@ -68,4 +69,9 @@ function show4() {
     button4.style.borderRight = "none";
     p1.textContent = "ДІЗНАТИСЬ БІЛЬШЕ";
     a1.href = "https://education.minecraft.net/en-us";
+}
+for (let i = 0; i < 100; i = i + 1) {
+    let tr = document.createElement("tr");
+    tr.textContent = "row" + i;
+    table.appendChild(tr);
 }
