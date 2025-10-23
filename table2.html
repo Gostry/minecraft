@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Title</title>
+        <style>
+            div button {
+                background-color: #beffe9;
+                border: 1px solid black;
+                border-radius: 5px;
+            }
+            div {
+                display: flex;
+            }
+            table {
+                border-collapse: collapse;
+                width: 20%;display: none;
+            }
+            td {
+                border: 1px solid black;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="justify-content: space-around">
+            <button onclick="button1()">Понеділок</button>
+            <button onclick="button2()">Вівторок</button>
+            <button onclick="button3()">Середа</button>
+            <button onclick="button4()">Четвер</button>
+            <button onclick="button5()">П'ятниця</button>
+            <button onclick="button6()">Субота</button>
+        </div>
+        <div>
+            <table id="day1">
+                <thead>
+                    <tr>
+                        <th>Понеділок</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1.</td>
+                        <td>Хімія</td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>Інформатика</td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>Алгебра</td>
+                    </tr>
+                    <tr>
+                        <td>4.</td>
+                        <td>Зарубіжна</td>
+                    </tr>
+                    <tr>
+                        <td>5.</td>
+                        <td>Правознавство</td>
+                    </tr>
+                    <tr>
+                        <td>6.</td>
+                        <td>Геометрія</td>
+                    </tr>
+                    <tr>
+                        <td>7.</td>
+                        <td>Мистецтво</td>
+                    </tr>
+                    <tr>
+                        <td>8.</td>
+                        <td>Фізкультура</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table id="day2">
+                <thead>
+                    <tr>
+                        <th>Вівторок</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1.</td>
+                        <td>Українська мова</td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>Алгебра</td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>Основи здоров'я</td>
+                    </tr>
+                    <tr>
+                        <td>4.</td>
+                        <td>Геометрія</td>
+                    </tr>
+                    <tr>
+                        <td>5.</td>
+                        <td>Інформатика</td>
+                    </tr>
+                    <tr>
+                        <td>6.</td>
+                        <td>Всесвітня історія</td>
+                    </tr>
+                    <tr>
+                        <td>7.</td>
+                        <td>Фізика</td>
+                    </tr>
+                    <tr>
+                        <td>8.</td>
+                        <td>Фізична культура</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table id="day3">
+                <thead>
+                    <tr>
+                        <th>Середа</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1.</td>
+                        <td>Алгебра</td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>Фізика</td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>Географія</td>
+                    </tr>
+                    <tr>
+                        <td>4.</td>
+                        <td>Алгебра</td>
+                    </tr>
+                    <tr>
+                        <td>5.</td>
+                        <td>Історія України</td>
+                    </tr>
+                    <tr>
+                        <td>6.</td>
+                        <td>Укр.літ.</td>
+                    </tr>
+
+                    <tr>
+                        <td>7.</td>
+                        <td>Фізична культура</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table id="day4">
+                <thead>
+                    <tr>
+                        <th>Четвер</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1.</td>
+                        <td>Українська мова</td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>Хімія</td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>Англіська мова</td>
+                    </tr>
+                    <tr>
+                        <td>4.</td>
+                        <td>Географія</td>
+                    </tr>
+                    <tr>
+                        <td>5.</td>
+                        <td>Трудове</td>
+                    </tr>
+                    <tr>
+                        <td>6.</td>
+                        <td>Алгебра</td>
+                    </tr>
+                    <tr>
+                        <td>7.</td>
+                        <td>Біологія</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table id="day5">
+                <thead>
+                    <tr>
+                        <th>П'ятниця</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1.</td>
+                        <td>Укр.літ.</td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>Зарубіжна</td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>Біологія</td>
+                    </tr>
+                    <tr>
+                        <td>4.</td>
+                        <td>Геометрія</td>
+                    </tr>
+                    <tr>
+                        <td>5.</td>
+                        <td>Фізика</td>
+                    </tr>
+                    <tr>
+                        <td>6.</td>
+                        <td>Англіська мова</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table id="day6">
+                <thead>
+                    <tr>
+                        <th>Субота</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1.</td>
+                        <td>Укр.літ.</td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>Зарубіжна</td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>Біологія</td>
+                    </tr>
+                    <tr>
+                        <td>4.</td>
+                        <td>Геометрія</td>
+                    </tr>
+                    <tr>
+                        <td>5.</td>
+                        <td>Фізика</td>
+                    </tr>
+                    <tr>
+                        <td>6.</td>
+                        <td>Англіська мова</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <script src="table.js"></script>
+
+    </body>
+</html>
