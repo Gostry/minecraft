@@ -169,3 +169,31 @@ ulCard li div div {
     background-color: rgba(23, 22, 21, 0.8);
     border-bottom: 3px solid #4d4c4b;
 }
+.smallDiv {
+    background-color: #171615;
+}
+.smallDiv div {
+    width: 80%;
+    height: 115px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 5px 13px;
+    gap: 20px;
+    justify-content: space-between;
+}
+.smallDiv div div {
+    width: 60%;
+}
+.smallDiv div div div {
+    display: inline-block;
+}
+.smallDiv div a {
+    border: 3px solid white;
+    text-decoration: none;
+    color: white;
+}
+.smallDiv div a:hover {
+    background-color: white;
+    color: black;
+}
