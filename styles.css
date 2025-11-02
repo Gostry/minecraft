@@ -147,6 +147,7 @@ header nav ul li {
 }
 .sect2 {
     text-align: center;
+    background-color: #313131
 }
 .ulCard li div {
     width: 239.75px;
@@ -192,6 +193,7 @@ ulCard li div div {
     border: 3px solid white;
     text-decoration: none;
     color: white;
+    padding: 10px 10px 10px 10px;
 }
 .smallDiv div a:hover {
     background-color: white;
