@@ -147,7 +147,7 @@ header nav ul li {
 }
 .sect2 {
     text-align: center;
-    background-color: #313131
+    background-color: #313131;
 }
 .ulCard li div {
     width: 239.75px;
@@ -175,7 +175,7 @@ ulCard li div div {
 }
 .smallDiv div {
     width: 80%;
-    height: 115px;
+
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -198,4 +198,19 @@ ulCard li div div {
 .smallDiv div a:hover {
     background-color: white;
     color: black;
+}
+.endSection {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #262423;
+}
+.endSection h1 {
+    font-size: 3.5rem;
+}
+.endSection p {
+    font-size: 1rem;
+}
+.endSection div div {
+    display: flex;
 }

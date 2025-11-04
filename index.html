@@ -436,7 +436,7 @@
                     <li>
                         <div
                             style="
-                                background-image: url(https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/mom_camelhusk_tile.png));
+                                background-image: url(https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/screenshots/mom_camelhusk_tile.png);
                             ">
                             <div>
                                 <h3>NEWS</h3>
@@ -536,15 +536,39 @@
                 </div>
             </section>
             <section>
-                <div>
+                <div class="endSection">
                     <h1>Отримуйте останні новини про Minecraft!</h1>
                     <p>
                         Введіть адресу електронної пошти, виберіть країну або регіон і надішліть. Відмовитися від
                         отримання розсилки можна в будь-який час. Ми обіцяємо не забивати вашу поштову скриньку.
                     </p>
-                    <div>
-                        <div><form>Електронна пошта Ares*<br><input type="text" name="emeil"></form></div>
-                        <div><form>Країна/регіон*<br><button>Виберіть один варіант</button></form></div>
+                    <div><div>
+                        <div>
+                            <form>Електронна пошта Ares*<br /><input type="text" name="emeil" /></form>
+                        </div>
+                        <div>
+                            <form>
+                                Країна/регіон*<br /><select name="select">
+                                    <option value="value0">Виберіть один варіант</option>
+
+                                    <option value="value1">ITALY</option>
+                                    <option value="value2">JAPAN</option>
+
+                                    <option value="value3">POLAND</option>
+                                </select>
+                            </form>
+                        </div>
+                            </div>
+                        <div></div>
+                        <div>
+                            <div>
+                                <p>
+                                    Підписуючись, ви погоджуєтесь отримувати повідомлення від Minecraft. Скасувати
+                                    передплату можна в будь-який час.
+                                </p>
+                                <input type="checkbox" /><button disabled>НАДІСЛАТИ</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
