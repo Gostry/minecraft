@@ -213,4 +213,20 @@ ulCard li div div {
 }
 .endSection div div {
     display: flex;
+    justify-content: space-evenly;
+}
+
+.ulend {
+    list-style-type: none;
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.ulend li img {
+    width: 40px;
+}
+.ulend li img:hover {
+    fill: red;
 }
